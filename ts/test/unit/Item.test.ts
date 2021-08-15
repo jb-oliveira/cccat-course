@@ -1,4 +1,4 @@
-import Item from "./Item";
+import Item from "../../src/domain/entity/Item";
 
 const ITEM_VOLUME = (50 / 100) * (50 / 100) * (50 / 100);
 
