@@ -1,0 +1,31 @@
+{
+  "name": "design_patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "tsc && jest ./dist --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^14.17.11",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "pg-promise": "^10.11.0",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
